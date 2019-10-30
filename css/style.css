@@ -1,0 +1,60 @@
+body {
+    font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+header {
+    position: relative;
+    height: 2067px;
+}
+
+.clear {
+    clear: both;
+}
+
+.header-video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+}
+
+section {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+nav {
+    float: right;
+    color: #584734;
+    background: url(../images/top-nav.png);
+    width: 236px;
+    height: 48px;
+    margin: 20px 133px 0 0;
+    line-height: 43px;
+    text-align: center;
+}
+
+nav a {
+    font-size: 14px;
+    color: #584734;
+    margin: 0 8px;
+    text-shadow: 0.7px 0.7px 0 #d9bd8d;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo {
+    margin-top: 57px;
+    text-align: center;
+}
+
+.logo img {
+    width: 600px;
+}
